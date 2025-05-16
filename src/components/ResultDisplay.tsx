@@ -12,7 +12,7 @@ export const ResultDisplay: React.FC = () => {
     load();
   }, []);
 
-  if (pollenCount === null) return <div>Loading...</div>;
+  if (pollenCount === null) return <div className="text-white">Loading...</div>;
 
   let image = "";
 
@@ -39,14 +39,13 @@ export const ResultDisplay: React.FC = () => {
       image = "public/images/PollenCount7.png";
       break;
     default:
+      image = "public/images/PollenCountError.png";
+      break;
   }
 
   return (
     <div>
-      <img className="border-2 border-black rounded-2xl"
-        src={image}
-        alt={`Pollen count: ${pollenCount}`}
-      />
+      <img className="border-2 border-black rounded-2xl" src={image} />
     </div>
   );
 };
