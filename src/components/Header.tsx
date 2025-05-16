@@ -7,20 +7,20 @@ export const Header: React.FC = () => {
   return (
     <nav
       className={`
-      fixed flex justify-between w-full h-[100px] py-2 bg-green-700 border-b-2 p-4 border-black
+      fixed flex justify-between items-center w-full h-[100px] py-2 bg-green-700 border-b-2 p-4 border-white
       `}
     >
       <button
-        className="hover:cursor-pointer text-white hover:border-2 hover:border-white p-5"
+        className="hover:cursor-pointer text-white hover:border-2 hover:border-white p-5 rounded-md font-serif"
         onClick={() => navigate({ to: "/" })}
       >
         Home
       </button>
-      <h1 className="text-center text-white">
+      <h1 className="text-center text-white font-serif text-[110%]">
         Birch Pollen Forecast for Stockholm
       </h1>
       <button
-        className="hover:cursor-pointer text-white hover:border-2 hover:border-white p-5"
+        className="hover:cursor-pointer text-white hover:border-2 hover:border-white p-5 rounded-md font-serif"
         onClick={() => navigate({ to: "/about" })}
       >
         About
