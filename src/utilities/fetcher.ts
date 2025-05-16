@@ -1,5 +1,11 @@
 export const fetchPollenCount = async () => {
-  const result = await fetch("http://localhost:8080/api");
-  const pollenCount = await result.json();
+  let pollenCount;
+  try {
+    const result = await fetch("http://localhost:8080/api");
+    pollenCount = await result.json();
+  } catch (err) {
+    return "An error occured while loading pollen data :(";
+  }
+
   return pollenCount[0].pollenCount;
 };

@@ -1,13 +1,22 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { fetchPollenCount } from "@/utilities/fetcher";
 
-const pollenCount = fetchPollenCount();
-console.log(pollenCount);
-
 export const ResultDisplay: React.FC = () => {
+  const [pollenCount, setPollenCount] = useState(null);
+
+  useEffect(() => {
+    async function load() {
+      const count = await fetchPollenCount();
+      setPollenCount(count);
+    }
+    load();
+  }, []);
+
+  if (pollenCount === null) return <div>Loading...</div>;
+
   return (
     <div>
-      <h1>Pollen Count: {pollenCount}</h1>
+      <h1>{pollenCount}</h1>
     </div>
   );
 };
