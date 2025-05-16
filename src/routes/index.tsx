@@ -11,7 +11,11 @@ export const Route = createFileRoute("/")({
 function App() {
   return (
     <>
-      <div className="h-screen w-full overflow-y-auto bg-neutral-100">
+      <div
+        className="h-screen w-full overflow-y-auto bg-green-700
+
+"
+      >
         <div className="flex flex-col items-center justify-center mt-[150px]">
           <ResultDisplay />
         </div>
