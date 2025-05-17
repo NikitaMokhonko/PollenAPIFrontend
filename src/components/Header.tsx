@@ -10,6 +10,7 @@ export const Header: React.FC = () => {
       fixed flex justify-between items-center w-full h-[100px] py-2 bg-green-900 border-b-2 p-4 border-white
       `}
     >
+      
       <button
         className="hover:cursor-pointer text-white hover:border-2 hover:border-white ml-10 p-5 rounded-md font-serif"
         onClick={() => navigate({ to: "/" })}
@@ -25,6 +26,8 @@ export const Header: React.FC = () => {
       >
         About
       </button>
+      
     </nav>
+    
   );
 };
