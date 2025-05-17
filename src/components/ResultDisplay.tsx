@@ -12,8 +12,12 @@ export const ResultDisplay: React.FC = () => {
     load();
   }, []);
 
-  if (pollenCount === null) return <div className="text-white">Loading...</div>;
-
+  if (pollenCount === null)
+    return (
+      <div className="flex items-center justify-center pt-80 h-40">
+        <div className="animate-spin rounded-full h-30 w-30 border-t-5 border-b-5 border-white"></div>
+      </div>
+    );
   let image = "";
 
   switch (true) {
