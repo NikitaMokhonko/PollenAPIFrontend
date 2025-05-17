@@ -11,7 +11,7 @@ function RouteComponent() {
       style={{ backgroundImage: "url('public/images/about-background.svg')" }}
     >
       <div className="h-screen w-full overflow-y-auto">
-        <div className="border-2 border-black rounded-3xl p-10 bg-white flex flex-col items-center justify-center mt-[330px] max-w-xl mx-auto text-center">
+        <div className="border-2 border-black rounded-3xl p-10 bg-white flex flex-col items-center justify-center mt-[200px] max-w-xl mx-auto text-center">
           <p>
             This website shows the current birch pollen data for the Stockholm
             region. <br />

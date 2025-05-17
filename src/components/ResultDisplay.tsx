@@ -14,7 +14,7 @@ export const ResultDisplay: React.FC = () => {
 
   if (pollenCount === null)
     return (
-      <div className="flex items-center justify-center pt-80 h-40">
+      <div className="flex items-center justify-center pt-20 h-40">
         <div className="animate-spin rounded-full h-30 w-30 border-t-5 border-b-5 border-white"></div>
       </div>
     );
@@ -48,7 +48,7 @@ export const ResultDisplay: React.FC = () => {
   }
 
   return (
-    <div className="mt-30">
+    <div className="">
       <img className="border-5 border-white rounded-3xl" src={image} />
     </div>
   );
