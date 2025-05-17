@@ -6,28 +6,29 @@ export const Header: React.FC = () => {
 
   return (
     <nav
+      style={{ backgroundImage: "url('public/images/background.svg')" }}
       className={`
-      fixed flex justify-between items-center w-full h-[100px] py-2 bg-green-900 border-b-2 p-4 border-white
+      fixed flex justify-between items-center w-full h-[110px] py-2 bg-green-900 border-b-2 p-4 border-white
       `}
     >
-      
       <button
-        className="hover:cursor-pointer text-white hover:border-2 hover:border-white ml-10 p-5 rounded-md font-serif"
+        className="hover:cursor-pointer text-white hover:border-2 hover:border-blue-400 border-white border-2 bg-black ml-20 p-2 rounded-md font-serif"
         onClick={() => navigate({ to: "/" })}
       >
         Home
       </button>
-      <h1 className="text-center text-white font-serif text-[110%]">
+      <h1
+        style={{ fontFamily: "'Poppins', sans-serif" }}
+        className="text-center bg-black font-thin text-white text-[150%] p-2 pl-10 pr-10 border-2 border-white rounded-2xl"
+      >
         Birch Pollen Forecast for Stockholm
       </h1>
       <button
-        className="hover:cursor-pointer text-white hover:border-2 hover:border-white mr-10 p-5 rounded-md font-serif"
+        className="hover:cursor-pointer text-white hover:border-2 hover:border-blue-400 border-white border-2 bg-black mr-20 p-2 rounded-md font-serif"
         onClick={() => navigate({ to: "/about" })}
       >
         About
       </button>
-      
     </nav>
-    
   );
 };

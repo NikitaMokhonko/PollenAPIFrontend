@@ -13,7 +13,7 @@ function App() {
     <>
       <div
         className="h-screen w-full overflow-y-auto bg-cover bg-center"
-        style={{ backgroundImage: "url('public/images/background.svg')" }}
+        style={{ backgroundImage: "url('public/images/peaks-background.svg')" }}
       >
         <div className="flex flex-col items-center justify-center mt-[150px]">
           <ResultDisplay />

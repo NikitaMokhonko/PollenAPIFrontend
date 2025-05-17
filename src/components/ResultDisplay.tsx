@@ -44,8 +44,8 @@ export const ResultDisplay: React.FC = () => {
   }
 
   return (
-    <div>
-      <img className="border-2 border-black rounded-2xl" src={image} />
+    <div className="mt-30">
+      <img className="border-5 border-white rounded-3xl" src={image} />
     </div>
   );
 };
