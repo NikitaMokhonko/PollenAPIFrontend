@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import "../App.css";
 import { ResultDisplay } from "@/components/ResultDisplay";
+import { Analytics } from "@vercel/analytics/react";
 
 export const Route = createFileRoute("/")({
   component: App,
