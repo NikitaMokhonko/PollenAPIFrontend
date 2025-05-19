@@ -8,7 +8,7 @@ function RouteComponent() {
   return (
     <div
       className="h-screen w-full overflow-y-auto bg-cover bg-center"
-      style={{ backgroundImage: "url('public/images/about-background.svg')" }}
+      style={{ backgroundImage: "url('images/about-background.svg')" }}
     >
       <div className="h-screen w-[80%] mx-auto overflow-y-auto">
         <div className="border-2 border-black rounded-3xl p-10 bg-white flex flex-col items-center justify-center mt-[200px] max-w-xl mx-auto text-center">

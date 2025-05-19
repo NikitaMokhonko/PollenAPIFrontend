@@ -22,28 +22,28 @@ export const ResultDisplay: React.FC = () => {
 
   switch (true) {
     case pollenCount === 1:
-      image = "public/images/PollenCount1.png";
+      image = "images/PollenCount1.png";
       break;
     case pollenCount === 2:
-      image = "public/images/PollenCount2.png";
+      image = "images/PollenCount2.png";
       break;
     case pollenCount === 3:
-      image = "public/images/PollenCount3.png";
+      image = "images/PollenCount3.png";
       break;
     case pollenCount === 4:
-      image = "public/images/PollenCount4.png";
+      image = "images/PollenCount4.png";
       break;
     case pollenCount === 5:
-      image = "public/images/PollenCount5.png";
+      image = "images/PollenCount5.png";
       break;
     case pollenCount === 6:
-      image = "public/images/PollenCount6.png";
+      image = "images/PollenCount6.png";
       break;
     case pollenCount === 7:
-      image = "public/images/PollenCount7.png";
+      image = "images/PollenCount7.png";
       break;
     default:
-      image = "public/images/PollenCountError.png";
+      image = "images/PollenCountError.png";
       break;
   }
 

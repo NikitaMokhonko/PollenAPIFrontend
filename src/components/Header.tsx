@@ -6,7 +6,7 @@ export const Header: React.FC = () => {
 
   return (
     <nav
-      style={{ backgroundImage: "url('public/images/background.svg')" }}
+      style={{ backgroundImage: "url('images/background.svg')" }}
       className={`
       fixed flex justify-between items-center w-full h-[110px] py-2 bg-green-900 border-b-2 p-4 border-white
       `}

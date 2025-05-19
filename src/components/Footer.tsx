@@ -5,7 +5,7 @@ export const Footer: React.FC = () => {
     <>
       <div
         style={{
-          backgroundImage: "url('public/images/footer-background.svg')",
+          backgroundImage: "url('images/footer-background.svg')",
         }}
         className=" pt-10 pb-8 flex justify-center align-center items-center text-white border-t-2 border-blue-700 bg-green-900"
       >
@@ -19,7 +19,7 @@ export const Footer: React.FC = () => {
         >
           <img
             className="w-12 ml-3 mr-3 h-12 border-white border-2 rounded-4xl"
-            src="public/images/github-logo.png"
+            src="images/github-logo.png"
           ></img>
         </a>
         <a
@@ -29,7 +29,7 @@ export const Footer: React.FC = () => {
         >
           <img
             className="w-12 h-12 border-white border-2 rounded-4xl"
-            src="public/images/instagram-logo.png"
+            src="images/instagram-logo.png"
           ></img>
         </a>
       </div>
