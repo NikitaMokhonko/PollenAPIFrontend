@@ -7,9 +7,9 @@ export const Footer: React.FC = () => {
         style={{
           backgroundImage: "url('public/images/footer-background.svg')",
         }}
-        className=" pt-10 pb-8 flex justify-center align-center items-center text-white border-t-2 border-white bg-green-900"
+        className=" pt-10 pb-8 flex justify-center align-center items-center text-white border-t-2 border-blue-600 bg-green-900"
       >
-        <p className="p-3 pl-2 border-white border-2 rounded-2xl bg-blue-400">
+        <p className="p-3 pl-2 border-white border-2 rounded-4xl bg-blue-400">
           © 2025 Nikita Mokhonko
         </p>
         <a
