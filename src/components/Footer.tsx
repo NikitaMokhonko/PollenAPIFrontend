@@ -18,7 +18,7 @@ export const Footer: React.FC = () => {
           rel="noopener noreferrer"
         >
           <img
-            className="w-10 ml-4 mr-4 h-10 border-white border-2 rounded-4xl"
+            className="w-12 ml-3 mr-3 h-12 border-white border-2 rounded-4xl"
             src="public/images/github-logo.png"
           ></img>
         </a>
@@ -28,7 +28,7 @@ export const Footer: React.FC = () => {
           rel="noopener noreferrer"
         >
           <img
-            className="w-10 h-10 border-white border-2 rounded-4xl"
+            className="w-12 h-12 border-white border-2 rounded-4xl"
             src="public/images/instagram-logo.png"
           ></img>
         </a>
