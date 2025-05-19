@@ -49,7 +49,7 @@ export const ResultDisplay: React.FC = () => {
 
   return (
     <div className="">
-      <img className="border-5 border-white rounded-4xl" src={image} />
+      <img className="border-4 border-white rounded-4xl" src={image} />
     </div>
   );
 };
