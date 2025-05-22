@@ -16,6 +16,7 @@ function App() {
       >
         <div className="flex flex-col items-center justify-center mt-[150px]">
           <ResultDisplay />
+          <Analytics />
         </div>
       </div>
     </>
